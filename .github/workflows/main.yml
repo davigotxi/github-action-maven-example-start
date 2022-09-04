@@ -36,12 +36,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Set up JDK 17
-      uses: actions/setup-java@v3
-      with:
-        java-version: '17'
-        distribution: 'temurin'
-
     - name: Restore workspace from cache
       uses: actions/cache@v3
       id: restore-build
