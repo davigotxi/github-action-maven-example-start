@@ -22,7 +22,7 @@ public class DeepThought {
 
     private void think(int time){
         try {
-            TimeUnit.SECONDS.sleep(time);
+            TimeUnit.MILLISECONDS.sleep(time);
         } catch (Exception e){
             System.out.println(e);
         }
